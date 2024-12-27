@@ -36,17 +36,17 @@ A simple UI displays the detected mood and the currently playing song.
  # 1.Python: 
             Ensure Python 3.10 or later is installed on your system.
  # 2.Required Libraries: Install the dependencies:-
-                                             bash:- pip install pygame speechrecognition vaderSentiment tkinter                       
+                                        bash:- pip install pygame speechrecognition vaderSentiment tkinter                       
  # 3.Music Library: 
                    Prepare a local folder with songs organized by mood (e.g., happy, sad, neutral). Update the music_library_path in the code with the path to this folder.
 
 ## Steps to Run:
  # 1.Clone the Repository:
-                                            bash:- git clone https://github.com/YourUsername/MoodMusicPlayer.git
-                                                   cd MoodMusicPlayer
+                          bash:- git clone https://github.com/YourUsername/MoodMusicPlayer.git
+                                 cd MoodMusicPlayer
  # 2.Run the Script:
         Execute the main script to launch the application:-
-                                              bash:- python main_script.py
+                                            bash:- python main_script.py
 
  # 3.Provide Voice Commands:
                           Speak into your microphone when prompted.
