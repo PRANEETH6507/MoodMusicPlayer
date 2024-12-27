@@ -41,19 +41,43 @@ A simple UI displays the detected mood and the currently playing song.
                    Prepare a local folder with songs organized by mood (e.g., happy, sad, neutral). Update the music_library_path in the code with the path to this folder.
 
 ## Steps to Run:
- # 1.Clone the Repository:
+ # ->1.Clone the Repository:
                           bash:- git clone https://github.com/YourUsername/MoodMusicPlayer.git
                                  cd MoodMusicPlayer
- # 2.Run the Script:
+ # Music Library
+               This folder is used to store categorized music files for the **Mood-based Music Player**. Songs are categorized into different folders based on mood. Users need to add their own music files into the respective folders.
+ # Folder Structure
+     music_library/
+     ├── happy/
+     │   ├── song1.mp3
+     │   ├── song2.mp3
+     ├── sad/
+     │   ├── song1.mp3
+     │   ├── song2.mp3
+     ├── neutral/
+     ├── song1.mp3
+     ├── song2.mp3
+ # File Formats
+         The music player supports the following audio file formats:
+                                                                   - `.mp3`
+                                                                   - `.wav`
+# Adding Your Own Music
+           To use the music player:
+                                  1. Place your music files in the appropriate folder based on mood.
+                                  2. Ensure the file names have recognizable extensions like `.mp3` or `.wav`.
+# Example Music
+    For privacy reasons, this repository does not include preloaded music files. You can populate the folders with your favorite songs!
+    ---
+    If you have any issues or questions, please check the main repository or contact the maintainer.
+# ->2.Run the Script:
         Execute the main script to launch the application:-
                                             bash:- python main_script.py
 
- # 3.Provide Voice Commands:
+# ->3.Provide Voice Commands:
                           Speak into your microphone when prompted.
                           The app will detect your mood and start playing music.
                           Use voice commands to control playback, adjust the volume, or stop the app.
-
- # 4.Enjoy:
+# ->4.Enjoy:
       Watch the UI update with your detected mood and currently playing song.
       Sit back and enjoy mood-appropriate music!
 
